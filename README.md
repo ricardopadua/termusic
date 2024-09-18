@@ -138,6 +138,7 @@ make
 Then install with:
 
 ```bash
+sudo dnf install alsa-lib-devel protobuf-compiler
 make install
 ```
 
