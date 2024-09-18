@@ -139,6 +139,10 @@ Then install with:
 
 ```bash
 sudo dnf install alsa-lib-devel protobuf-compiler
+sudo dnf install gstreamer1-devel gstreamer1-plugins-base-devel
+sudo dnf install soundtouch-devel
+sudo dnf install pkg-config
+pkg-config --modversion soundtouch
 make install
 ```
 
